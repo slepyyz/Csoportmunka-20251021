@@ -12,4 +12,4 @@ etelek=[
 foodlista=[]
 
 fuggvenyek.osszegzo(foodlista)
-fuggvenyek.szamlazo(foodlista,121212,30)
+fuggvenyek.szamlazo(foodlista,121212,50)
