@@ -17,3 +17,12 @@ def szamlazo(foodlista,osszeg,hossz):
     print()
     print(" "* 14 + "Köszönjük a vásárlását!")
     print("=" * hossz)
+
+def bekeres(etelek):
+    foodlista=[]
+    etel=int(input("Mit eszel!?: "))
+    while etel != 100:
+        foodlista.append(etelek[etel])
+        etel=int(input("Mit eszel!?: "))
+
+    return foodlista

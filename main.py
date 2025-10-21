@@ -9,7 +9,7 @@ etelek=[
     {"nev": "The fortress Stilt Fisherman Idulgence", "ar": 5600000, "tipus": "foetel"}
 ]
 
-foodlista=[]
 
-fuggvenyek.osszegzo(foodlista)
-fuggvenyek.szamlazo(foodlista,121212,50)
+foodlista=fuggvenyek.bekeres(etelek)
+osszeg=fuggvenyek.osszegzo(foodlista)
+fuggvenyek.szamlazo(foodlista,osszeg,50)
