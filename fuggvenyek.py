@@ -20,3 +20,11 @@ def szamlazo(foodlista):
     print(" "* 14 + "Köszönjük a vásárlását!")
     print("=" * 50)
     
+
+def osszegzo(foodlista):
+    osszeg = 0
+    hossz = 0
+    while hossz < len(foodlista):
+        osszeg += foodlista[hossz]["ar"]
+        hossz += 1
+    return osszeg
