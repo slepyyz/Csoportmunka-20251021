@@ -1,5 +1,3 @@
-
-
 def osszegzo(foodlista):
     osszeg = 0
     hossz = 0
