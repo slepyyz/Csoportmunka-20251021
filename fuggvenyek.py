@@ -27,4 +27,3 @@ def szamlazo(foodlista,osszeg,hossz):
     print()
     print(" "* 14 + "Köszönjük a vásárlását!")
     print("=" * 50)
-
