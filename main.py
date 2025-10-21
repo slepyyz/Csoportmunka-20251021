@@ -10,6 +10,6 @@ etelek=[
 ]
 
 foodlista=[]
-
+fuggvenyek.kiiras()
 fuggvenyek.osszegzo(foodlista)
 fuggvenyek.szamlazo(foodlista,121212,50)

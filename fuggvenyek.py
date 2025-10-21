@@ -17,3 +17,11 @@ def szamlazo(foodlista,osszeg,hossz):
     print()
     print(" "* 14 + "Köszönjük a vásárlását!")
     print("=" * hossz)
+
+def kiiras():
+    print("Üdvözöljük az Éttermünkben!")
+    valasz=input("Előételt vagy Főételt szeretne fogyasztani?")
+    if valasz == "Előétel":
+        print("Mai választások: Húsleves, Gyümölcsleves, Paradicsomleves")
+    elif valasz == "Főétel":
+        print("Mai választások: Steak, Körömpörkölt, The Fortress Stilt Fisherman Idulgence")
