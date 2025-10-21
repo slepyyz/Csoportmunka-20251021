@@ -26,3 +26,10 @@ def bekeres(etelek):
         etel=int(input("Mit eszel!?: "))
 
     return foodlista
+def kiiras():
+    print("Üdvözöljük az Éttermünkben!")
+    valasz=input("Előételt vagy Főételt szeretne fogyasztani?")
+    if valasz == "Előétel":
+        print("Mai választások: Húsleves, Gyümölcsleves, Paradicsomleves")
+    elif valasz == "Főétel":
+        print("Mai választások: Steak, Körömpörkölt, The Fortress Stilt Fisherman Idulgence")

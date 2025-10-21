@@ -9,7 +9,9 @@ etelek=[
     {"nev": "The fortress Stilt Fisherman Idulgence", "ar": 5600000, "tipus": "foetel"}
 ]
 
+foodlista=[]
 
+fuggvenyek.kiiras(etelek)
 foodlista=fuggvenyek.bekeres(etelek)
 osszeg=fuggvenyek.osszegzo(foodlista)
 fuggvenyek.szamlazo(foodlista,osszeg,50)
