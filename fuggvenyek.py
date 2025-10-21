@@ -16,14 +16,13 @@ def osszegzo(foodlista):
     return osszeg
 
 def szamlazo(foodlista,osszeg,hossz):
-    print("=" * 50)
+    print("=" * hossz)
     print(" " * 20 + "Hekk Tuah")
-    print("=" * 50)
-    hossz=0
+    print("=" * hossz)
     print()
-    print("-" *50)
+    print("-" * hossz)
     print(f"{'VÉGÖSSZEG:':<30} {osszeg:>16} Ft")
-    print("=" * 50)
+    print("=" * hossz)
     print()
     print(" "* 14 + "Köszönjük a vásárlását!")
-    print("=" * 50)
+    print("=" * hossz)
